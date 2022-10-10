@@ -17,7 +17,7 @@ RSpec.describe Car do
     let(:color) { 'White' }
     subject(:car) { Car.new(color) }
 
-    it 'fails to create car object' do 
+    it 'fails to create car object' do
       expect{car}.to raise_error(ArgumentError)
     end
   end

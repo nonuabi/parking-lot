@@ -1,6 +1,6 @@
 class ParkingLot
   attr_accessor :slots, :tickets
-  @@ticket_number = 100
+
   def initialize(size)
     @slots = Array.new(size)
     @tickets = []
